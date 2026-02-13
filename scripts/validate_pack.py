@@ -13,7 +13,7 @@ EXPECTED_LICENSE = "CC-BY-NC-4.0"
 REQUIRED_LABELS = {
     "How you doin?",
     "We were on a break!",
-    "My sandwich?!",
+    "You ate my sandwich?",
     "Oh. My. God.",
 }
 

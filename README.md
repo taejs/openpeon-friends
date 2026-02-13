@@ -6,7 +6,7 @@ Friends sound pack draft for PeonPing/OpenPeon, designed for coding event notifi
 
 - How you doin?
 - We were on a break!
-- My sandwich?!
+- You ate my sandwich?
 - Oh. My. God.
 
 ## Popular quotes added
@@ -15,7 +15,7 @@ Friends sound pack draft for PeonPing/OpenPeon, designed for coding event notifi
 - Unagi.
 - Joey doesn't share food!
 - I got off the plane.
-- He's her lobster!
+- She's your lobster!
 - Could I BE wearing any more clothes?
 - I know!
 
@@ -36,6 +36,7 @@ openpeon-friends/
   sounds/
   scripts/
     create_placeholder_audio.sh
+    download_real_audio.py
     validate_pack.py
     build_registry_entry.py
   README.md
@@ -58,6 +59,12 @@ bash scripts/create_placeholder_audio.sh
 ```
 
 3. Replace placeholder files in `sounds/` with real clipped audio.
+
+Or auto-fetch from approved source URLs:
+
+```bash
+python3 scripts/download_real_audio.py
+```
 
 4. Validate pack rules:
 
@@ -88,6 +95,7 @@ git push origin v1.0.0
 
 - License follows the standard PeonPing pack convention: `CC-BY-NC-4.0`
 - Original media rights remain with the original rights holders
+- Source URL map for audit: `source-map.json`
 - Target size limit: max 1 MB per file, 50 MB total
 - Allowed formats: WAV, MP3, OGG
 - Keep rights/compliance checks for all final audio clips before publishing

@@ -21,8 +21,8 @@
           "label": "Welcome to the real world. It sucks. You're gonna love it."
         },
         {
-          "file": "sounds/phoebe__hello_children.mp3",
-          "label": "Hello, children."
+          "file": "sounds/phoebe__my_eyes.mp3",
+          "label": "My eyes! My eyes!"
         },
         {
           "file": "sounds/chandler__could_i_be_any_more_excited.mp3",
@@ -86,7 +86,7 @@
         },
         {
           "file": "sounds/phoebe__hes_her_lobster.mp3",
-          "label": "He's her lobster!"
+          "label": "She's your lobster!"
         }
       ]
     },
@@ -98,7 +98,7 @@
         },
         {
           "file": "sounds/ross__my_sandwich.mp3",
-          "label": "My sandwich?!"
+          "label": "You ate my sandwich?"
         },
         {
           "file": "sounds/chandler__hopeless_awkward_desperate.mp3",
@@ -114,7 +114,7 @@
       "sounds": [
         {
           "file": "sounds/ross__what_do_you_mean.mp3",
-          "label": "What do you mean?"
+          "label": "What is the matter?"
         },
         {
           "file": "sounds/rachel__kick_you_in_the_crotch.mp3",
@@ -122,7 +122,7 @@
         },
         {
           "file": "sounds/joey__dinosaur_would_do.mp3",
-          "label": "You can't just give up! Is that what a dinosaur would do?"
+          "label": "I'm Joey, I'm an actor, I don't know squat about dinosaurs."
         }
       ]
     },

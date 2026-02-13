@@ -1,7 +1,7 @@
 category,character,label,file,priority,episode_hint
 session.start,Joey,How you doin?,sounds/joey__how_you_doin.mp3,must,S04
 session.start,Monica,Welcome to the real world. It sucks. You're gonna love it.,sounds/monica__welcome_to_the_real_world.mp3,high,S01E01
-session.start,Phoebe,"Hello, children.",sounds/phoebe__hello_children.mp3,medium,S02
+session.start,Phoebe,My eyes! My eyes!,sounds/phoebe__my_eyes.mp3,high,S05E14
 session.start,Chandler,Could I BE any more excited?,sounds/chandler__could_i_be_any_more_excited.mp3,medium,S03
 task.acknowledge,Ross,We were on a break!,sounds/ross__we_were_on_a_break.mp3,must,S03E15
 task.acknowledge,Monica,I know!,sounds/monica__i_know.mp3,high,S05
@@ -15,14 +15,14 @@ task.complete,Rachel,I got off the plane.,sounds/rachel__i_got_off_the_plane.mp3
 task.complete,Monica,Seven! Seven! Seven!,sounds/monica__seven.mp3,medium,S02E12
 task.complete,Phoebe,"Smelly cat, smelly cat.",sounds/phoebe__smelly_cat.mp3,medium,S02
 task.complete,Joey,It's a moo point.,sounds/joey__moo_point.mp3,medium,S07E08
-task.complete,Phoebe,He's her lobster!,sounds/phoebe__hes_her_lobster.mp3,high,S02E14
+task.complete,Phoebe,She's your lobster!,sounds/phoebe__hes_her_lobster.mp3,high,S02E14
 task.error,Janice,Oh. My. God.,sounds/janice__oh_my_god.mp3,must,S03E24
-task.error,Ross,My sandwich?!,sounds/ross__my_sandwich.mp3,must,S05E09
+task.error,Ross,You ate my sandwich?,sounds/ross__my_sandwich.mp3,must,S05E09
 task.error,Chandler,I'm hopeless and awkward and desperate for love!,sounds/chandler__hopeless_awkward_desperate.mp3,medium,S01
 task.error,Ross,I'm fine!,sounds/ross__im_fine.mp3,high,S10E02
-input.required,Ross,What do you mean?,sounds/ross__what_do_you_mean.mp3,medium,S03
+input.required,Ross,What is the matter?,sounds/ross__what_do_you_mean.mp3,medium,S03
 input.required,Rachel,"Isn't that just kick-you-in-the-crotch, spit-on-your-neck fantastic?",sounds/rachel__kick_you_in_the_crotch.mp3,medium,S01
-input.required,Joey,You can't just give up! Is that what a dinosaur would do?,sounds/joey__dinosaur_would_do.mp3,medium,S07E04
+input.required,Joey,"I'm Joey, I'm an actor, I don't know squat about dinosaurs.",sounds/joey__dinosaur_would_do.mp3,medium,S07E04
 resource.limit,Joey,"Why, God, why? We had a deal!",sounds/joey__why_god_why.mp3,medium,S05
 resource.limit,Phoebe,This is brand new information!,sounds/phoebe__brand_new_information.mp3,medium,S05
 user.spam,Janice,Oh. My. God.,sounds/janice__oh_my_god_again.mp3,must,S03
