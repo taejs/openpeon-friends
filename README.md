@@ -16,9 +16,6 @@ Friends sound pack draft for PeonPing/OpenPeon, designed for coding event notifi
 
 - Name: `taejs`
 - GitHub: `taejs`
-- Contact: `taeshindev@gmail.com`
-
-`taerim.shin@navercorp` is intentionally not used.
 
 ## Repository layout
 
@@ -37,14 +34,7 @@ openpeon-friends/
 
 ## Quick start
 
-1. Configure git author for this project:
-
-```bash
-git config user.name "taejs"
-git config user.email "taeshindev@gmail.com"
-```
-
-2. Download all sounds from MyInstants:
+1. Download all sounds from MyInstants:
 
 ```bash
 bash scripts/download_myinstants_audio.sh
@@ -52,19 +42,19 @@ bash scripts/download_myinstants_audio.sh
 
 This script deletes existing `sounds/*.mp3` first, then downloads only the verified set.
 
-3. Validate pack rules:
+2. Validate pack rules:
 
 ```bash
 python3 scripts/validate_pack.py
 ```
 
-4. Create registry entry payload:
+3. Create registry entry payload:
 
 ```bash
 python3 scripts/build_registry_entry.py --source-repo taejs/openpeon-friends > registry-entry.json
 ```
 
-5. Tag release:
+4. Tag release:
 
 ```bash
 git tag v1.0.0
