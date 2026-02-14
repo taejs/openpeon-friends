@@ -18,7 +18,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--source-ref",
-        default="v1.0.0",
+        default=None,
         help="Git ref used by registry source_ref",
     )
     parser.add_argument(
@@ -83,6 +83,8 @@ def main() -> int:
             if filename and len(preview_sounds) < 2:
                 preview_sounds.append(filename)
 
+    source_ref = args.source_ref or f"v{manifest.get('version')}"
+
     entry = {
         "name": manifest.get("name"),
         "display_name": manifest.get("display_name"),
@@ -96,7 +98,7 @@ def main() -> int:
         "sound_count": sound_count,
         "total_size_bytes": total_size_bytes,
         "source_repo": args.source_repo,
-        "source_ref": args.source_ref,
+        "source_ref": source_ref,
         "source_path": args.source_path,
         "manifest_sha256": manifest_sha256,
         "tags": ["tv", "sitcom", "friends"],

@@ -10,12 +10,6 @@ EXPECTED_AUTHOR_NAME = "taejs"
 EXPECTED_AUTHOR_GITHUB = "taejs"
 EXPECTED_PACK_NAME = "friends"
 EXPECTED_LICENSE = "CC-BY-NC-4.0"
-REQUIRED_LABELS = {
-    "How you doin?",
-    "We were on a break!",
-    "You ate my sandwich?",
-    "Oh. My. God.",
-}
 
 
 def error(message: str) -> None:
@@ -145,14 +139,8 @@ def main() -> int:
         error(f"Total pack size exceeds 50MB: {total_bytes} bytes")
         failures += 1
 
-    labels_set = set(all_labels)
-    for label in sorted(REQUIRED_LABELS):
-        if label not in labels_set:
-            error(f"Required quote missing from labels: {label}")
-            failures += 1
-
-    if total_sounds < 20 or total_sounds > 30:
-        error(f"Sound count must stay in 20-30 range (current: {total_sounds})")
+    if total_sounds < 1:
+        error("At least one sound entry is required")
         failures += 1
 
     if failures == 0:

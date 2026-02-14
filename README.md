@@ -2,22 +2,15 @@
 
 Friends sound pack draft for PeonPing/OpenPeon, designed for coding event notifications.
 
-## Required quotes included
+## MyInstants-verified quotes (current)
 
 - How you doin?
 - We were on a break!
-- You ate my sandwich?
 - Oh. My. God.
-
-## Popular quotes added
-
+- My eyes! My eyes!
 - Pivot! Pivot! Pivot!
 - Unagi.
-- Joey doesn't share food!
-- I got off the plane.
-- She's your lobster!
-- Could I BE wearing any more clothes?
-- I know!
+- Smelly cat, smelly cat.
 
 ## Author
 
@@ -36,7 +29,6 @@ openpeon-friends/
   sounds/
   scripts/
     create_placeholder_audio.sh
-    download_real_audio.py
     validate_pack.py
     build_registry_entry.py
   README.md
@@ -52,37 +44,31 @@ git config user.name "taejs"
 git config user.email "taeshindev@gmail.com"
 ```
 
-2. Generate placeholder audio files (for local validation only):
+2. Download all sounds from MyInstants:
 
 ```bash
-bash scripts/create_placeholder_audio.sh
+bash scripts/download_myinstants_audio.sh
 ```
 
-3. Replace placeholder files in `sounds/` with real clipped audio.
+This script deletes existing `sounds/*.mp3` first, then downloads only the verified set.
 
-Or auto-fetch from approved source URLs:
-
-```bash
-python3 scripts/download_real_audio.py
-```
-
-4. Validate pack rules:
+3. Validate pack rules:
 
 ```bash
 python3 scripts/validate_pack.py
 ```
 
-5. Create registry entry payload:
+4. Create registry entry payload:
 
 ```bash
 python3 scripts/build_registry_entry.py --source-repo taejs/openpeon-friends > registry-entry.json
 ```
 
-6. Tag release:
+5. Tag release:
 
 ```bash
-git tag v1.0.0
-git push origin v1.0.0
+git tag v1.0.1
+git push origin v1.0.1
 ```
 
 ## Registry submission checklist
@@ -95,7 +81,6 @@ git push origin v1.0.0
 
 - License follows the standard PeonPing pack convention: `CC-BY-NC-4.0`
 - Original media rights remain with the original rights holders
-- Source URL map for audit: `source-map.json`
 - Target size limit: max 1 MB per file, 50 MB total
 - Allowed formats: WAV, MP3, OGG
 - Keep rights/compliance checks for all final audio clips before publishing

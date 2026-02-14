@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "friends",
   "display_name": "Friends",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "taejs",
     "github": "taejs"
@@ -15,18 +15,6 @@
         {
           "file": "sounds/joey__how_you_doin.mp3",
           "label": "How you doin?"
-        },
-        {
-          "file": "sounds/monica__welcome_to_the_real_world.mp3",
-          "label": "Welcome to the real world. It sucks. You're gonna love it."
-        },
-        {
-          "file": "sounds/phoebe__my_eyes.mp3",
-          "label": "My eyes! My eyes!"
-        },
-        {
-          "file": "sounds/chandler__could_i_be_any_more_excited.mp3",
-          "label": "Could I BE any more excited?"
         }
       ]
     },
@@ -35,58 +23,14 @@
         {
           "file": "sounds/ross__we_were_on_a_break.mp3",
           "label": "We were on a break!"
-        },
-        {
-          "file": "sounds/monica__i_know.mp3",
-          "label": "I know!"
-        },
-        {
-          "file": "sounds/rachel__no_uterus_no_opinion.mp3",
-          "label": "No uterus, no opinion."
-        },
-        {
-          "file": "sounds/joey__joey_doesnt_share_food.mp3",
-          "label": "Joey doesn't share food!"
-        },
-        {
-          "file": "sounds/phoebe__they_dont_know_they_know.mp3",
-          "label": "They don't know that we know they know we know."
-        },
-        {
-          "file": "sounds/chandler__sarcastic_comment.mp3",
-          "label": "I'm not great at the advice. Can I interest you in a sarcastic comment?"
-        },
-        {
-          "file": "sounds/ross__pivot.mp3",
-          "label": "Pivot! Pivot! Pivot!"
-        },
-        {
-          "file": "sounds/ross__unagi.mp3",
-          "label": "Unagi."
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/rachel__i_got_off_the_plane.mp3",
-          "label": "I got off the plane."
-        },
-        {
-          "file": "sounds/monica__seven.mp3",
-          "label": "Seven! Seven! Seven!"
-        },
-        {
-          "file": "sounds/phoebe__smelly_cat.mp3",
-          "label": "Smelly cat, smelly cat."
-        },
-        {
-          "file": "sounds/joey__moo_point.mp3",
-          "label": "It's a moo point."
-        },
-        {
-          "file": "sounds/phoebe__hes_her_lobster.mp3",
-          "label": "She's your lobster!"
+          "file": "sounds/ross__pivot.mp3",
+          "label": "Pivot! Pivot! Pivot!"
         }
       ]
     },
@@ -95,62 +39,30 @@
         {
           "file": "sounds/janice__oh_my_god.mp3",
           "label": "Oh. My. God."
-        },
-        {
-          "file": "sounds/ross__my_sandwich.mp3",
-          "label": "You ate my sandwich?"
-        },
-        {
-          "file": "sounds/chandler__hopeless_awkward_desperate.mp3",
-          "label": "I'm hopeless and awkward and desperate for love!"
-        },
-        {
-          "file": "sounds/ross__im_fine.mp3",
-          "label": "I'm fine!"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/ross__what_do_you_mean.mp3",
-          "label": "What is the matter?"
-        },
-        {
-          "file": "sounds/rachel__kick_you_in_the_crotch.mp3",
-          "label": "Isn't that just kick-you-in-the-crotch, spit-on-your-neck fantastic?"
-        },
-        {
-          "file": "sounds/joey__dinosaur_would_do.mp3",
-          "label": "I'm Joey, I'm an actor, I don't know squat about dinosaurs."
+          "file": "sounds/phoebe__my_eyes.mp3",
+          "label": "My eyes! My eyes!"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/joey__why_god_why.mp3",
-          "label": "Why, God, why? We had a deal!"
-        },
-        {
-          "file": "sounds/phoebe__brand_new_information.mp3",
-          "label": "This is brand new information!"
+          "file": "sounds/ross__unagi.mp3",
+          "label": "Unagi."
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/janice__oh_my_god_again.mp3",
-          "label": "Oh. My. God."
-        },
-        {
-          "file": "sounds/chandler__wearing_any_more_clothes.mp3",
-          "label": "Could I BE wearing any more clothes?"
-        },
-        {
-          "file": "sounds/monica__i_know_again.mp3",
-          "label": "I know!"
+          "file": "sounds/phoebe__smelly_cat.mp3",
+          "label": "Smelly cat, smelly cat."
         }
       ]
     }
