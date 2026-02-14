@@ -67,8 +67,8 @@ python3 scripts/build_registry_entry.py --source-repo taejs/openpeon-friends > r
 5. Tag release:
 
 ```bash
-git tag v1.0.1
-git push origin v1.0.1
+git tag v1.0.0
+git push origin v1.0.0
 ```
 
 ## Registry submission checklist
